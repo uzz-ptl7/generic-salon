@@ -8,47 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Elegant salon color palette */
-    --background: 0 0% 100%;
-    --foreground: 345 15% 15%;
+    /* Dark elegant salon color palette */
+    --background: 220 13% 9%;
+    --foreground: 210 20% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 345 15% 15%;
+    --card: 220 13% 12%;
+    --card-foreground: 210 20% 85%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 345 15% 15%;
+    --popover: 220 13% 12%;
+    --popover-foreground: 210 20% 85%;
 
-    /* Soft pink primary */
-    --primary: 338 82% 75%;
-    --primary-foreground: 0 0% 100%;
+    /* Deep gold/amber primary */
+    --primary: 43 74% 66%;
+    --primary-foreground: 220 13% 9%;
 
-    /* Warm beige secondary */
-    --secondary: 35 25% 93%;
-    --secondary-foreground: 345 15% 15%;
+    /* Dark charcoal secondary */
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 210 20% 85%;
 
-    --muted: 35 15% 96%;
-    --muted-foreground: 345 8% 45%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 8% 55%;
 
-    /* Light pink accent */
-    --accent: 338 45% 92%;
-    --accent-foreground: 345 15% 15%;
+    /* Subtle gold accent */
+    --accent: 220 13% 15%;
+    --accent-foreground: 210 20% 85%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 35 15% 90%;
-    --input: 35 15% 90%;
-    --ring: 338 82% 75%;
+    --border: 220 13% 20%;
+    --input: 220 13% 20%;
+    --ring: 43 74% 66%;
 
-    /* Elegant gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(338 82% 75%), hsl(338 65% 85%));
-    --gradient-hero: linear-gradient(135deg, hsl(338 82% 75% / 0.9), hsl(35 25% 93% / 0.9));
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(338 45% 98%));
+    /* Dark elegant gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(43 74% 66%), hsl(45 80% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 9% / 0.8), hsl(220 13% 15% / 0.9));
+    --gradient-card: linear-gradient(180deg, hsl(220 13% 12%), hsl(220 13% 10%));
 
-    /* Elegant shadows */
-    --shadow-soft: 0 4px 20px hsl(338 82% 75% / 0.15);
-    --shadow-card: 0 8px 30px hsl(338 82% 75% / 0.12);
-    --shadow-elegant: 0 15px 40px hsl(338 82% 75% / 0.2);
+    /* Dark elegant shadows */
+    --shadow-soft: 0 4px 20px hsl(0 0% 0% / 0.3);
+    --shadow-card: 0 8px 30px hsl(0 0% 0% / 0.4);
+    --shadow-elegant: 0 15px 40px hsl(43 74% 66% / 0.2);
 
     --radius: 1rem;
 

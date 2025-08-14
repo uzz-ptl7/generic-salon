@@ -1,16 +1,11 @@
 import hairstyle from '@/assets/hairstyle-1.jpg';
 
 const Gallery = () => {
-  // Using placeholder images for gallery
   const galleryImages = [
     { src: hairstyle, alt: 'Elegant blonde waves' },
     { src: hairstyle, alt: 'Professional hair coloring' },
     { src: hairstyle, alt: 'Bridal hair styling' },
-    { src: hairstyle, alt: 'Modern hair cut' },
-    { src: hairstyle, alt: 'Hair treatment results' },
-    { src: hairstyle, alt: 'Color transformation' },
-    { src: hairstyle, alt: 'Special occasion styling' },
-    { src: hairstyle, alt: 'Extension application' }
+    { src: hairstyle, alt: 'Modern hair cut' }
   ];
 
   return (
@@ -25,7 +20,7 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {galleryImages.map((image, index) => (
             <div 
               key={index} 

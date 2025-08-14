@@ -4,7 +4,7 @@ import { Calendar, Clock, Phone, MapPin } from 'lucide-react';
 
 const Booking = () => {
   return (
-    <section id="booking" className="py-20 bg-primary/5">
+    <section id="booking" className="py-20 bg-secondary">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-elegant font-bold text-foreground mb-6">
